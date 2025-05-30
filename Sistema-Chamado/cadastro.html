@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pr-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela de Cadastro</title>
+    <link rel="stylesheet" href="css/cadastro.css">
+</head>
+<body>
+    <div class="container">
+        <aside>
+            <img src="images/Img_Cadastro.png" alt="">
+        </aside>
+        <form action="php/insert_user.php" method="post">
+            <label for="nome">NOME</label>
+            <input type="text" name="nome" id="nome">
+
+            <br>
+
+            <label for="email">EMAIL</label>
+            <input type="email" name="email" id="email">
+
+            <br>
+            
+            <label for="setor">SETOR</label>
+            <input type="text" name="setor" id="setor">
+
+            <br>
+
+            <label for="senha">SENHA</label>
+            <input type="password" name="senha" id="senha">
+    
+
+            <div class="botao">
+             <button type="submit">CADASTRAR</button>
+             <a href="">VOLTAR</a>
+            </div>
+        </form>
+    </div>
+    
+</body>
+</html>
