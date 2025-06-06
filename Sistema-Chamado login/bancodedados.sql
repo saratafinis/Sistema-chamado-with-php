@@ -8,5 +8,5 @@ create table tb_user(
     email varchar(50),
     setor varchar(45),
     senha text
-);
+);j
 select * from tb_user;
